@@ -1,2 +1,2 @@
 # projeto-site
- Primeiro Repositório do curso de HTML5 e CSS3
+ Primeiro site construido com o Curso em Video de HTML5 e CSS3
