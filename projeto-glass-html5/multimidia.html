@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF8-8"/>
+    <title>Tudo sobre o Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css"/> <!--link p/ outro documento-->
+    <link rel="stylesheet" type="text/css" href="_css/media.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap'); /*Para importar uma nova fonte, tem que por o link no codigo HTML */
+    </style>
+</head>
+    <script language="javascript" src="_javascript/funcoes.js"></script>
+	
+<body> 
+<div id="interface">
+
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Google Glass</h1>
+    <h2>A revolução do Google está chegando</h2>
+ 
+	</hgroup>
+    
+	<img id="icone" src ="_imagens/multimidia.png">
+        
+    <nav id="menu">
+    <h1>Menu Principal</h1> 
+
+<!--lista não ordenada-->
+    <ul type="disc"> 
+     <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index%20(%C3%A0%20editar).html">Home</a></li>
+        <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs-txt.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('_imagens/contato.png')"onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    </ul>       
+    </nav>  
+       
+	</header> 
+
+<section id="corpo-full">
+<article id="noticia-principal">
+    <header id="cabecalho-artigo">
+<hgroup>
+    <h3>Glass > Multimídia</h3>
+    <h1>Sons e Vídeos</h1>
+    <h2>por Gustavo Guanabara</h2>
+    <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+</hgroup>
+    </header>    
+
+<div id="tv-radio">
+    <audio id="musica" controls="controls">
+        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+        <source src="_media/2009-lovers-carvings-bibio-3.aac" type="audio/aac"/>
+        <source src="_media/2009-lovers-carvings-bibio-2.ogg" type="audio/ogg"/>
+        Desculpe, mas não foi possivel carregar seu áudio.
+    </audio>
+    <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+        <source src="_media/getting-started.mp4" type="video/mp4"/>
+        <source src="_media/getting-started-3.webm" type="video/webm"/>
+        <source src="_media/getting-started-2.ogv" type="video/ogg"/>
+        Desculpe, mas não foi possivel carregar seu vídeo.
+    </video> <audio></audio>
+</div>
+</article>
+</section>
+
+<footer id="rodape">
+
+<p>Copyright 2020 - by Jefferson Pedro <br/>
+<a href="http://www.facebook.com/cursosemvideo" target="_blank">Facebook</a> | <a href="https://twitter.com/cursosemvideo"target="_blank">Twitter</a></p>
+</footer>
+</div>
+
+</body>
+
+</html>
